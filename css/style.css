@@ -1,0 +1,156 @@
+html{
+	overflow-y: scroll;
+}
+
+.header{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	background-color: #3B54A6; 
+}
+
+#footer{
+	width: 100%
+	height: 300px;
+	padding: 20px;
+	margin: 0px;
+	background-color: #B5B8BB;
+	color: white;
+	text-align: center;
+}
+
+ul{
+	list-style-type: none;
+	margin-left: auto;
+	padding-left: 0px;
+	width: 200px;
+	text-align: left;
+	background-color: #3B54A6;
+	font-family: 'Cabin', sans-serif;
+}
+
+li a{
+	display: block;
+	padding: 8px 16px;
+	color: white;
+	font-size: 56;
+	font-family: 'Cabin', sans-serif;
+}
+
+li a.active{
+	text-decoration: none !important;
+	background-color: #a68d3b;
+	font-weight: bold;
+	color: white;
+	font-family: 'Cabin', sans-serif;
+}
+
+li a:hover:not(.active){
+	text-decoration: none !important;
+	background-color: white;
+	font-weight: bold;
+	color: #a68d3b;
+	font-family: 'Cabin', sans-serif;
+}
+
+h2.centerText{
+	text-align: center;
+	font-family: 'Cabin', sans-serif;
+}
+
+h5{
+	font-family: 'Cabin', sans-serif;
+}
+
+p{
+	font-family: 'Old Standard TT', serif;
+}
+
+p.centerText{
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+p.Test{
+	text-align: left-justify;
+	padding-left: 10px;
+}
+
+p.rightText{
+	text-align: right;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-bottom: 40px;	
+}
+
+p.rightNospace{
+	text-align: right;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+
+.image-container{
+	text-align: center;
+}
+
+#space{
+	margin-bottom: 40px;
+}
+
+.pictures{
+	background-color: white;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+#bioSpace{
+	margin-bottom: 5px;
+}
+
+.col-centered{
+	text-align: center;
+}
+
+.btn-default{
+	background-color: #a68d3b;
+	border-color: #a68d3b;
+
+}
+
+.btn{
+color: white;
+}
+
+.btn-lg{
+	background-color: white;
+	border color: white;
+}
+
+.btn-lg:hover{
+	font-weight: bold;
+	color: #a68d3b;
+	background-color: white;
+	border-color: white;
+
+}
+
+.btn-lg:focus{
+	font-weight: bold;
+	background-color: #a68d3b;
+	border-color: #3B54A6;
+
+}
+
+.btn-info{
+	border-color: white;
+	margin-top: 10px;
+}
+
+.btns{
+	color: black;
+	font-family: 'Cabin', sans-serif;
+}
