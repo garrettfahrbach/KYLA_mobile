@@ -14,7 +14,7 @@ html{
 	height: 300px;
 	padding: 20px;
 	margin: 0px;
-	background-color: #B5B8BB;
+	background-color: #3B54A6;
 	color: white;
 	text-align: center;
 }
@@ -58,8 +58,30 @@ h2.centerText{
 	font-family: 'Cabin', sans-serif;
 }
 
-h5{
+h4{
 	font-family: 'Cabin', sans-serif;
+}
+
+h5{
+	font-family: 'Old Standard TT', serif;
+}
+
+h5:hover{
+	font-family: 'Old Standard TT', serif;
+	text-decoration: none !important;
+	color: #a68d3b;
+
+}
+
+#outline{
+	border: 1px;
+	border-radius: 10px;
+	border-color: #3B54A6;
+}
+
+#outline:hover{
+	border: 2px solid #a68d3b;
+	box-shadow: 1px 1px 3px #a68d3b; 
 }
 
 p{
@@ -99,6 +121,10 @@ p.rightNospace{
 	margin-bottom: 40px;
 }
 
+#breath{
+	margin-bottom: 20px;
+}
+
 .pictures{
 	background-color: white;
 	margin-left: 10%;
@@ -131,7 +157,6 @@ color: white;
 }
 
 .btn-lg:hover{
-	font-weight: bold;
 	color: #a68d3b;
 	background-color: white;
 	border-color: white;
@@ -139,7 +164,6 @@ color: white;
 }
 
 .btn-lg:focus{
-	font-weight: bold;
 	background-color: #a68d3b;
 	border-color: #3B54A6;
 
