@@ -180,3 +180,9 @@ color: white;
 	font-family: 'Cabin', sans-serif;
 }
 
+@media only screen and (min-width: 891px){
+	.container{
+		margin-left: 10%;
+		margin-right: 10%;	
+	}
+}
