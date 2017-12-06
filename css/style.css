@@ -180,14 +180,14 @@ color: white;
 	font-family: 'Cabin', sans-serif;
 }
 
-@media only screen and (min-width: 376px){
+@media only screen and (min-width: 375px){
 	.modal-content{
 		margin-left: -20%;
 		margin-right: -20%;
 	}
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 376px){
 	.modal-content{
 		margin-left: 0%;
 		margin-right: 0%;
